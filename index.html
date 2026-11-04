@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f6f2">
+  <meta name="description" content="Discover the books of Pollyanna Bruce: Written in Her Veins and A Shadowed Belief. Browse the book gallery and visit her Amazon author page.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Books | Pollyanna Bruce">
+  <meta property="og:description" content="Explore Written in Her Veins and A Shadowed Belief by Pollyanna Bruce.">
+  <title>My Books | Pollyanna Bruce</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%235c3b50'/%3E%3Ctext x='32' y='42' text-anchor='middle' fill='%23fff9f4' font-family='Georgia' font-size='29'%3EPB%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f9f6f2;
+      --cream: #f2ebe6;
+      --white: #fffefd;
+      --plum: #51394c;
+      --plum-deep: #362638;
+      --muted: #786b70;
+      --rose: #a87379;
+      --copper: #b48475;
+      --outline: #e7ddd9;
+      --radius: 22px;
+      --max: 1170px;
+      --serif: Georgia, 'Times New Roman', serif;
+      --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    *, *::before, *::after {box-sizing: border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0; background:var(--paper); color:var(--plum-deep); font-family:var(--sans); line-height:1.6; -webkit-font-smoothing:antialiased}
+    body::before {content:'';position:absolute;inset:0 0 auto; height:780px;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 88% 10%,#f0e3e2 0%,transparent 54%),radial-gradient(ellipse at 8% 85%,#f1eae8 0%,transparent 45%)}
+    a {color:inherit}
+    button {font:inherit}
+    a:focus-visible,button:focus-visible {outline:3px solid #ab7084;outline-offset:5px}
+    .wrap {width:min(calc(100% - 48px),var(--max));margin-inline:auto}
+    .site-header {background:rgba(249,246,242,.94);border-bottom:1px solid rgba(97,67,79,.10);position:relative;z-index:2}
+    .header-inner {display:flex;align-items:center;justify-content:space-between;min-height:96px;gap:24px}
+    .brand {text-decoration:none;display:flex;align-items:center;gap:13px;flex-shrink:0}
+    .brand-mark {width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:var(--plum);color:#fffaf4;font:23px var(--serif);letter-spacing:-2px;box-shadow:0 6px 17px #43253718}
+    .brand-name {display:block;font:600 15px var(--serif);letter-spacing:.075em;text-transform:uppercase;line-height:1.2}
+    .brand-label {display:block;font-size:11px;letter-spacing:.21em;color:var(--muted);text-transform:uppercase;margin-top:4px}
+    .nav {display:flex;align-items:center;gap:30px}
+    .nav a {text-decoration:none;font-size:13px;font-weight:650;white-space:nowrap}
+    .nav a:not(.nav-shop):hover {color:var(--rose)}
+    .nav .nav-shop {background:var(--plum);color:white;padding:12px 17px;border-radius:999px;box-shadow:0 6px 16px #51394c15}
+    .nav .nav-shop:hover {background:#6c4b62}
+    .hero {display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(32px,6vw,85px);align-items:center;padding:92px 0 97px}
+    .eyebrow {font-size:11px;letter-spacing:.24em;font-weight:750;color:var(--rose);text-transform:uppercase}
+    h1,h2,h3,p {margin-top:0}
+    h1,h2,h3 {font-family:var(--serif);font-weight:400}
+    h1 {font-size:clamp(49px,5.6vw,82px);line-height:1.08;letter-spacing:-.045em;max-width:660px;margin:20px 0 24px}
+    h1 em {font-weight:400;color:var(--rose);font-style:italic}
+    .hero-copy > p {font-size:16px;color:#6d636b;line-height:1.9;max-width:475px;margin-bottom:31px}
+    .actions {display:flex;flex-wrap:wrap;align-items:center;gap:13px}
+    .btn {display:inline-flex;align-items:center;justify-content:center;gap:11px;text-decoration:none;border-radius:999px;min-height:48px;padding:12px 23px;font-size:13px;font-weight:720;transition:transform .2s ease,background .2s ease,border-color .2s ease}
+    .btn:hover {transform:translateY(-2px)}
+    .btn-primary {background:var(--plum);color:#fff;border:1px solid var(--plum)}
+    .btn-primary:hover {background:#6c4c63}
+    .btn-ghost {border:1px solid #d6c8ca;color:var(--plum);background:transparent}
+    .btn-ghost:hover {background:#f2e8e8;border-color:var(--rose)}
+    .hero-art {position:relative;padding:15px 0 0 15px}
+    .hero-art::before {content:'';position:absolute;inset:-11px 25px 23px -10px;border:1px solid #d6c1c3;border-radius:31px;transform:rotate(-3deg);pointer-events:none}
+    .hero-shot {aspect-ratio:4 / 3;position:relative;border-radius:25px;overflow:hidden;box-shadow:0 27px 65px #51394c20}
+    .sprite {display:block;background-image:url('books-gallery.jpg');background-repeat:no-repeat;background-size:700% 100%;background-position:var(--pos,0%) center;background-color:#e8dfdc}
+    .hero-label {position:absolute;bottom:21px;left:35px;display:inline-flex;align-items:center;gap:8px;background:rgba(255,253,249,.95);padding:9px 15px;border-radius:999px;color:var(--plum);font-size:12px;font-weight:700;box-shadow:0 4px 24px #33223326}
+    .hero-label::before {content:'✦';color:var(--rose);font-size:14px}
+    .divider-mark {text-align:center;line-height:1;color:var(--rose);font:24px var(--serif);padding-bottom:9px}
+    .section {padding:67px 0 96px}
+    .section-head {text-align:center;margin:0 auto 42px;max-width:610px}
+    .section-head h2 {font-size:clamp(39px,4vw,56px);line-height:1.13;letter-spacing:-.037em;margin:13px 0 14px}
+    .section-head p {color:var(--muted);font-size:15px;line-height:1.8;margin:0}
+    .book-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}
+    .book-card {background:var(--white);border:1px solid var(--outline);border-radius:var(--radius);overflow:hidden;box-shadow:0 13px 35px #4a31410c;transition:transform .25s ease,box-shadow .25s ease}
+    .book-card:hover {transform:translateY(-5px);box-shadow:0 18px 42px #4a31411a}
+    .book-image {width:100%;aspect-ratio:4 / 3;border-bottom:1px solid var(--outline)}
+    .book-details {padding:29px 34px 32px}
+    .number {color:var(--rose);font-size:11px;letter-spacing:.18em;font-weight:750;text-transform:uppercase}
+    .book-details h3 {font-size:clamp(28px,3vw,39px);line-height:1.16;letter-spacing:-.035em;margin:9px 0 12px}
+    .book-details p {color:var(--muted);font-size:13px;margin:0 0 22px}
+    .text-link {color:var(--plum);font-size:13px;text-decoration:none;font-weight:750;display:inline-flex;gap:10px;align-items:center;border-bottom:1px solid #ad858d;padding-bottom:4px}
+    .text-link:hover {color:var(--rose)}
+    .gallery-section {background:linear-gradient(180deg,#f2eae8,#f5eeea);padding:88px 0 98px;border-block:1px solid #e8dedd}
+    .gallery-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .gallery-tile {display:block;border:0;background:var(--white);padding:9px 9px 0;border-radius:19px;cursor:zoom-in;text-align:left;box-shadow:0 10px 30px #50374512;transition:transform .25s ease,box-shadow .25s ease;width:100%;color:inherit}
+    .gallery-tile:hover {transform:translateY(-4px);box-shadow:0 14px 35px #50374520}
+    .gallery-photo {aspect-ratio:4 / 3;border-radius:12px;position:relative;overflow:hidden}
+    .gallery-photo::after {content:'↗';position:absolute;bottom:12px;right:12px;display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:#fffefaef;color:var(--plum);font-size:20px}
+    .gallery-caption {display:block;padding:15px 12px 17px;font-size:13px;font-weight:650}
+    .closing {padding:90px 0 93px}
+    .closing-card {background:var(--plum);color:#fff9f8;border-radius:27px;min-height:275px;padding:52px 55px;display:flex;align-items:center;justify-content:space-between;gap:40px;position:relative;overflow:hidden}
+    .closing-card::after {content:'✦';position:absolute;right:16%;top:-138px;font:400 390px var(--serif);color:#ffffff0a;pointer-events:none}
+    .closing-copy {position:relative;z-index:1;max-width:610px}
+    .closing-copy .eyebrow {color:#e4b2b9}
+    .closing h2 {font-size:clamp(37px,4.3vw,57px);line-height:1.13;letter-spacing:-.035em;margin:10px 0 14px}
+    .closing p {color:#e9dfe7;font-size:14px;line-height:1.8;margin-bottom:0}
+    .closing .btn {position:relative;z-index:1;background:#fff8f3;color:var(--plum);flex-shrink:0}
+    .closing .btn:hover {background:#f2e3e0}
+    footer {border-top:1px solid #e7dcd9;padding:29px 0 34px}
+    .footer-inner {display:flex;justify-content:space-between;gap:20px;align-items:center;color:var(--muted);font-size:12px}
+    footer a {text-decoration:none;color:var(--plum);font-weight:700}
+    .lightbox {border:0;padding:0;background:transparent;max-width:min(940px,calc(100vw - 36px));width:940px;max-height:calc(100dvh - 36px);color:white;overflow:visible}
+    .lightbox::backdrop {background:rgba(23,17,27,.91);backdrop-filter:blur(7px)}
+    .lightbox-frame {position:relative;background:#fff;padding:10px;border-radius:17px;box-shadow:0 18px 80px #0009}
+    .lightbox-image {aspect-ratio:4 / 3;border-radius:11px}
+    .lightbox-controls {display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:15px}
+    .lightbox-controls p {text-align:center;color:#fff8f5;font-size:14px;margin:0}
+    .icon-button {border:1px solid #fff8;background:#fff2;color:white;display:grid;place-items:center;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:23px;flex-shrink:0}
+    .icon-button:hover {background:#fff4}
+    .close-lightbox {position:absolute;right:-13px;top:-18px;background:var(--plum-deep);color:white;border:2px solid white;z-index:1}
+    #books,#gallery {scroll-margin-top:20px}
+    @media (max-width:820px) {
+      .hero {grid-template-columns:1fr;padding:60px 0 77px;gap:43px}
+      .hero-copy {max-width:670px}
+      .hero-copy>p {max-width:600px}
+      .hero-art {width:min(100%,650px);margin-inline:auto}
+      .nav {gap:17px}
+      .closing-card {flex-direction:column;align-items:flex-start;justify-content:center}
+    }
+    @media (max-width:590px) {
+      .wrap {width:min(calc(100% - 34px),var(--max))}
+      .header-inner {min-height:78px}
+      .brand-mark {width:43px;height:43px;border-radius:13px;font-size:21px}
+      .brand-name {font-size:12px;letter-spacing:.04em}
+      .brand-label {font-size:10px}
+      .nav > a:not(.nav-shop) {display:none}
+      .nav .nav-shop {padding:10px 13px;font-size:11px}
+      .hero {padding:56px 0 65px;gap:32px}
+      h1 {font-size:clamp(47px,11vw,65px);margin:14px 0 20px}
+      .hero-copy>p {font-size:14px;line-height:1.85;margin-bottom:25px}
+      .actions {align-items:stretch}
+      .actions .btn {padding-inline:18px}
+      .hero-art {padding:10px 0 0 10px}
+      .hero-art::before {inset:-7px 16px 17px -5px}
+      .hero-label {left:23px;bottom:17px;font-size:10px;padding:8px 11px}
+      .section {padding:45px 0 76px}
+      .section-head {margin-bottom:27px}
+      .section-head h2 {font-size:40px}
+      .section-head p {font-size:14px}
+      .book-grid,.gallery-grid {grid-template-columns:1fr;gap:18px}
+      .book-details {padding:23px 24px 27px}
+      .book-details h3 {font-size:35px}
+      .gallery-section {padding:73px 0 75px}
+      .gallery-caption {padding:11px 10px 14px}
+      .closing {padding:67px 0}
+      .closing-card {min-height:310px;padding:33px 26px;gap:24px}
+      .closing h2 {font-size:42px}
+      .closing p {font-size:13px}
+      .footer-inner {flex-direction:column;align-items:flex-start;gap:8px}
+      .lightbox {max-width:calc(100vw - 26px)}
+      .lightbox-controls {gap:10px}
+      .lightbox-controls p {font-size:12px}
+      .icon-button {width:39px;height:39px}
+    }
+    @media (prefers-reduced-motion:reduce) {
+      html {scroll-behavior:auto}
+      .btn,.book-card,.gallery-tile {transition:none}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Pollyanna Bruce — back to top">
+        <span class="brand-mark" aria-hidden="true">PB</span>
+        <span><span class="brand-name">Pollyanna Bruce</span><span class="brand-label">Author &amp; storyteller</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#books">My books</a>
+        <a href="#gallery">Photo gallery</a>
+        <a class="nav-shop" href="https://www.amazon.co.uk/stores/Pollyanna-Bruce/author/B0GD96X53Y" target="_blank" rel="noopener noreferrer" aria-label="Visit Pollyanna Bruce's Amazon author page, opens in a new tab">Amazon ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="wrap hero" aria-label="Welcome to my books">
+      <div class="hero-copy">
+        <span class="eyebrow">Welcome to my bookshelf</span>
+        <h1>My stories,<br>in your <em>hands.</em></h1>
+        <p>I'm Pollyanna Bruce, author of <strong>Written in Her Veins</strong> and <strong>A Shadowed Belief</strong>. Explore my books, take a peek at the paperbacks, and find me on Amazon.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#books">Discover my books <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-ghost" href="https://www.amazon.co.uk/stores/Pollyanna-Bruce/author/B0GD96X53Y" target="_blank" rel="noopener noreferrer">My Amazon author page <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-shot sprite" style="--pos:0%" role="img" aria-label="Written in Her Veins and A Shadowed Belief paperbacks beside a white wax burner"></div>
+        <span class="hero-label">A glimpse of my books</span>
+      </div>
+    </section>
+
+    <div class="divider-mark" aria-hidden="true">✧</div>
+
+    <section id="books" class="section wrap" aria-labelledby="books-title">
+      <div class="section-head">
+        <span class="eyebrow">The collection</span>
+        <h2 id="books-title">Meet the books</h2>
+        <p>Two titles by Pollyanna Bruce, photographed here in paperback.</p>
+      </div>
+      <div class="book-grid">
+        <article class="book-card">
+          <div class="book-image sprite" style="--pos:16.666667%" role="img" aria-label="Close-up photograph of Written in Her Veins by Pollyanna Bruce"></div>
+          <div class="book-details">
+            <span class="number">Book one</span>
+            <h3>Written in Her Veins</h3>
+            <p>By Pollyanna Bruce</p>
+            <a class="text-link" href="https://www.amazon.co.uk/stores/Pollyanna-Bruce/author/B0GD96X53Y" target="_blank" rel="noopener noreferrer" aria-label="Find Written in Her Veins on Pollyanna Bruce's Amazon author page">Find on my Amazon page <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="book-image sprite" style="--pos:33.333333%" role="img" aria-label="Close-up photograph of A Shadowed Belief by Pollyanna Bruce"></div>
+          <div class="book-details">
+            <span class="number">Book two</span>
+            <h3>A Shadowed Belief</h3>
+            <p>By Pollyanna Bruce</p>
+            <a class="text-link" href="https://www.amazon.co.uk/stores/Pollyanna-Bruce/author/B0GD96X53Y" target="_blank" rel="noopener noreferrer" aria-label="Find A Shadowed Belief on Pollyanna Bruce's Amazon author page">Find on my Amazon page <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">A closer look</span>
+          <h2 id="gallery-title">Behind the covers</h2>
+          <p>A few photographs from my bookshelf. Tap or click a picture to see it larger.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-tile" type="button" data-gallery="0" aria-label="Enlarge photo: My books, side by side">
+            <span class="gallery-photo sprite" style="--pos:50%" aria-hidden="true"></span>
+            <span class="gallery-caption">My books, side by side</span>
+          </button>
+          <button class="gallery-tile" type="button" data-gallery="1" aria-label="Enlarge photo: The paperbacks up close">
+            <span class="gallery-photo sprite" style="--pos:66.666667%" aria-hidden="true"></span>
+            <span class="gallery-caption">The paperbacks up close</span>
+          </button>
+          <button class="gallery-tile" type="button" data-gallery="2" aria-label="Enlarge photo: A stack of stories">
+            <span class="gallery-photo sprite" style="--pos:83.333333%" aria-hidden="true"></span>
+            <span class="gallery-caption">A stack of stories</span>
+          </button>
+          <button class="gallery-tile" type="button" data-gallery="3" aria-label="Enlarge photo: The book spines">
+            <span class="gallery-photo sprite" style="--pos:100%" aria-hidden="true"></span>
+            <span class="gallery-caption">The book spines</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing wrap" aria-labelledby="closing-title">
+      <div class="closing-card">
+        <div class="closing-copy">
+          <span class="eyebrow">Keep reading</span>
+          <h2 id="closing-title">Find your next read.</h2>
+          <p>Visit my Amazon author page to explore my available books and editions.</p>
+        </div>
+        <a class="btn" href="https://www.amazon.co.uk/stores/Pollyanna-Bruce/author/B0GD96X53Y" target="_blank" rel="noopener noreferrer">Visit my Amazon page <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> Pollyanna Bruce. All rights reserved.</span>
+      <span>Made for book lovers · <a href="#top">Back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="gallery-dialog" aria-label="Book photo viewer">
+    <div class="lightbox-frame">
+      <button id="photo-close" type="button" class="icon-button close-lightbox" aria-label="Close photo viewer">×</button>
+      <div class="lightbox-image sprite" id="full-photo" role="img" aria-label="Enlarged book photo" style="--pos:50%"></div>
+    </div>
+    <div class="lightbox-controls">
+      <button id="photo-prev" class="icon-button" type="button" aria-label="Previous photo">‹</button>
+      <p id="photo-caption" aria-live="polite">My books, side by side</p>
+      <button id="photo-next" class="icon-button" type="button" aria-label="Next photo">›</button>
+    </div>
+  </dialog>
+
+  <script>
+    'use strict';
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const dialog = document.getElementById('gallery-dialog');
+    const fullPhoto = document.getElementById('full-photo');
+    const photoCaption = document.getElementById('photo-caption');
+    const photos = [
+      { position: '50%', caption: 'My books, side by side' },
+      { position: '66.666667%', caption: 'The paperbacks up close' },
+      { position: '83.333333%', caption: 'A stack of stories' },
+      { position: '100%', caption: 'The book spines' }
+    ];
+    let currentPhoto = 0;
+    function showPhoto(index) {
+      currentPhoto = (index + photos.length) % photos.length;
+      const photo = photos[currentPhoto];
+      fullPhoto.style.setProperty('--pos', photo.position);
+      fullPhoto.setAttribute('aria-label', photo.caption + ' — photograph of Pollyanna Bruce books');
+      photoCaption.textContent = (currentPhoto + 1) + ' / ' + photos.length + ' · ' + photo.caption;
+    }
+    document.querySelectorAll('[data-gallery]').forEach(button => {
+      button.addEventListener('click', () => {
+        showPhoto(Number(button.dataset.gallery));
+        if (typeof dialog.showModal === 'function') dialog.showModal();
+      });
+    });
+    document.getElementById('photo-close').addEventListener('click', () => dialog.close());
+    document.getElementById('photo-prev').addEventListener('click', () => showPhoto(currentPhoto - 1));
+    document.getElementById('photo-next').addEventListener('click', () => showPhoto(currentPhoto + 1));
+    dialog.addEventListener('click', event => {if(event.target === dialog) dialog.close();});
+    document.addEventListener('keydown', event => {
+      if(!dialog.open) return;
+      if(event.key === 'ArrowLeft') showPhoto(currentPhoto - 1);
+      if(event.key === 'ArrowRight') showPhoto(currentPhoto + 1);
+    });
+  </script>
+</body>
+</html>
